@@ -62,7 +62,19 @@ Score_Object.update_display()
 game_is_on=True
 while game_is_on: 
     Screen_Object.update()
-    time.sleep(0.1)   
+    if (Score_Object.score<5):
+          time.sleep(0.1)
+    elif (Score_Object.score>=5 and Score_Object.score<10):
+          time.sleep(0.09)
+    elif (Score_Object.score>=10 and Score_Object.score<15):
+          time.sleep(0.08)
+    elif (Score_Object.score>=15 and Score_Object.score<20):
+          time.sleep(0.07)
+    else:
+          time.sleep(0.05)
+
+
+       
     Snake_Object.following()
 
     if Snake_Object.head.distance(Food_Object) < 15:
@@ -79,7 +91,7 @@ while game_is_on:
             Score_Object.game_over()
             game_is_on=False
             print("Error")
-
+ 
 try:
     leaderboard.append({"Name": Name, "Score": Score_Object.score})
     

@@ -6,8 +6,8 @@ class Snake:
         self.create_snake(3)
         self.head = self.Squares[0]
         self.head.color("yellow")
-        self.current_direction = "right"  # Track current direction explicitly
-        self.next_direction = "right"     # Store the next direction change
+        self.current_direction = "right"  
+        self.next_direction = "right"     
     
     def create_snake(self, n):
         pos_init = 0
@@ -18,6 +18,7 @@ class Snake:
             Turtle_Object.goto(pos_init, 0)
             self.Squares.append(Turtle_Object)
             pos_init -= 21
+            
     
     def add_segment(self):
         last_segment = self.Squares[-1]
@@ -45,7 +46,6 @@ class Snake:
         elif self.current_direction == "right":
             self.head.setheading(0)
         
-        # Move the head forward
         self.head.fd(21)
     
     def up(self):
