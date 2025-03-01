@@ -53,7 +53,8 @@ python snake_game.py
 
 ## 📸 Demo Screenshots
 
-(Include gameplay images or GIFs here)
+![Screenshot (6)](https://github.com/user-attachments/assets/1d2bb578-a90f-4266-bab3-c189a7d4be08)
+![Screenshot (5)](https://github.com/user-attachments/assets/7ae1244d-637f-47e9-bc36-100b40d9b30c)
 
 ---
 
@@ -87,5 +88,5 @@ This project is open-source and available under the **MIT License**.
 ### 🔗 Connect with Me
 
 💻 GitHub: [Paradox-Incarnation](https://github.com/Paradox-Incarnation/)\
-📧 Email: [your-email@example.com](mailto\:paradoxincarnation@gmail.com)
+📧 Email: [paradoxincarnation@example.com](mailto\:paradoxincarnation@gmail.com)
 
